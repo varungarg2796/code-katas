@@ -11,3 +11,7 @@ function solution(str){
 }
 
 console.log(solution('abcd'));
+
+//OR 
+
+//return str.split('').reverse().join('');  
