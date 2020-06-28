@@ -11,7 +11,6 @@ function spinWords(str){
     for (word of words) {
         if(word.length >= 5){
             newLine.push(word.split("").reverse().join("")); 
-            console.log(word)
         } else {
             newLine.push(word);
         }
